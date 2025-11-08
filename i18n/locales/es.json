@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "portfolio": "Portfolio"
+  },
+  "common": {
+    "language": "Idioma",
+    "selectLanguage": "Seleccionar idioma",
+    "spanish": "Español",
+    "english": "English"
+  },
+  "home": {
+    "title": "Antonio Mateos",
+    "subtitle": "A frontend developer who sometimes designs",
+    "welcome": "Bienvenido",
+    "description": "Desarrollador frontend apasionado por crear experiencias web modernas y funcionales."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "heading": "Hola, soy Antonio",
+    "subtitle": "Desarrollador Frontend",
+    "description": "Aquí puedes hablar sobre tu experiencia profesional, tus habilidades y tu trayectoria."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "heading": "Mis Proyectos",
+    "subtitle": "Una selección de mis trabajos más relevantes",
+    "viewProject": "Ver proyecto",
+    "technologies": "Tecnologías",
+    "noProjects": "No hay proyectos disponibles"
+  },
+  "error": {
+    "404": {
+      "title": "404",
+      "heading": "Página no encontrada",
+      "message": "Lo sentimos, la página que buscas no existe.",
+      "backHome": "Volver al inicio"
+    }
+  }
+}
+

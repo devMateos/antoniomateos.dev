@@ -1,0 +1,59 @@
+:root {
+  /* Background colors */
+  --color-bg: #f3f3f3;
+  --color-bg-alt: #fff;
+
+  /* Text colors */
+  --color-text: #000;
+  --color-text-inverse: #fff;
+
+  /* Border colors */
+  --color-border: #000;
+
+  /* Accent colors */
+  --color-accent: #c85314;
+
+  /* Icon colors */
+  --color-icon-pink: #fabada;
+  --color-icon-green: #74d289;
+  --color-icon-blue: #9fbfff;
+  --color-icon-orange: #d77a48;
+
+  /* Language selector colors */
+  --color-language-active: #c85314;
+  --color-language-inactive: #fff;
+
+  /* Typography */
+  --font-family-caprasimo: "Caprasimo", cursive;
+  --font-family-raleway: "Raleway", sans-serif;
+}
+@media (width <= 768px) {
+  :root {
+    /* Font sizes - Mobile */
+    --fs-hero: 4.2rem;
+    --fs-hero-sub: 1.9rem;
+    --fs-hero-loc: 1.6rem;
+    --fs-intro: 2rem;
+    --fs-xxl: 3.2rem;
+    --fs-xl: 2.4rem;
+    --fs-l: 2rem;
+    --fs-m: 1.6rem;
+    --fs-s: 1.4rem;
+    --fs-xs: 1.2rem;
+  }
+}
+@media (width > 768px) {
+  :root {
+    /* Font sizes - Desktop */
+    --fs-hero: 12rem;
+    --fs-hero-sub: 4.39rem;
+    --fs-hero-loc: 3.4rem;
+    --fs-intro: 5.6rem;
+    --fs-xxl: 6rem;
+    --fs-xl: 4rem;
+    --fs-l: 3.2rem;
+    --fs-m: 2.4rem;
+    --fs-s: 2rem;
+    --fs-xs: 1.6rem;
+  }
+}

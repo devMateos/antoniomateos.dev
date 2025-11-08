@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio"
+  },
+  "common": {
+    "language": "Language",
+    "selectLanguage": "Select language",
+    "spanish": "Español",
+    "english": "English"
+  },
+  "home": {
+    "title": "Antonio Mateos",
+    "subtitle": "A frontend developer who sometimes designs",
+    "welcome": "Welcome",
+    "description": "Frontend developer passionate about creating modern and functional web experiences."
+  },
+  "about": {
+    "title": "About",
+    "heading": "Hi, I'm Antonio",
+    "subtitle": "Frontend Developer",
+    "description": "Here you can talk about your professional experience, your skills and your career path."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "heading": "My Projects",
+    "subtitle": "A selection of my most relevant work",
+    "viewProject": "View project",
+    "technologies": "Technologies",
+    "noProjects": "No projects available"
+  },
+  "error": {
+    "404": {
+      "title": "404",
+      "heading": "Page not found",
+      "message": "Sorry, the page you are looking for does not exist.",
+      "backHome": "Back to home"
+    }
+  }
+}
+

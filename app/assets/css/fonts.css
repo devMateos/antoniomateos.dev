@@ -1,0 +1,26 @@
+/* Caprasimo Regular */
+@font-face {
+  font-family: 'Caprasimo';
+  src: url('../fonts/Caprasimo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Raleway Variable */
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* Rango completo de pesos de la fuente variable */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Raleway Italic Variable */
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
