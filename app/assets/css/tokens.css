@@ -13,11 +13,11 @@
   /* Accent colors */
   --color-accent: #c85314;
 
-  /* Icon colors */
-  --color-icon-pink: #fabada;
-  --color-icon-green: #74d289;
-  --color-icon-blue: #9fbfff;
-  --color-icon-orange: #d77a48;
+  /* Brand colors */
+  --color-pink: #fabada;
+  --color-green: #74d289;
+  --color-blue: #9fbfff;
+  --color-brown: #d77a48;
 
   /* Language selector colors */
   --color-language-active: #c85314;
@@ -26,34 +26,65 @@
   /* Typography */
   --font-family-caprasimo: "Caprasimo", cursive;
   --font-family-raleway: "Raleway", sans-serif;
-}
-@media (width <= 768px) {
-  :root {
-    /* Font sizes - Mobile */
-    --fs-hero: 4.2rem;
-    --fs-hero-sub: 1.9rem;
-    --fs-hero-loc: 1.6rem;
-    --fs-intro: 2rem;
-    --fs-xxl: 3.2rem;
-    --fs-xl: 2.4rem;
-    --fs-l: 2rem;
-    --fs-m: 1.6rem;
-    --fs-s: 1.4rem;
-    --fs-xs: 1.2rem;
-  }
-}
-@media (width > 768px) {
-  :root {
-    /* Font sizes - Desktop */
-    --fs-hero: 12rem;
-    --fs-hero-sub: 4.39rem;
-    --fs-hero-loc: 3.4rem;
-    --fs-intro: 5.6rem;
-    --fs-xxl: 6rem;
-    --fs-xl: 4rem;
-    --fs-l: 3.2rem;
-    --fs-m: 2.4rem;
-    --fs-s: 2rem;
-    --fs-xs: 1.6rem;
-  }
+
+  /* Font sizes - Fluid responsive con clamp() */
+  --fs-hero: clamp(4.2rem, 8vw + 2rem, 12rem);
+  --fs-hero-sub: clamp(1.9rem, 3vw + 1rem, 4.39rem);
+  --fs-hero-loc: clamp(1.6rem, 2.5vw + 0.8rem, 3.4rem);
+  --fs-intro: clamp(2rem, 4vw + 1.5rem, 5.6rem);
+  --fs-xxl: clamp(3.2rem, 5vw + 2rem, 6rem);
+  --fs-xl: clamp(2.4rem, 3vw + 1.5rem, 4rem);
+  --fs-l: clamp(2rem, 2.5vw + 1.2rem, 3.2rem);
+  --fs-m: clamp(1.6rem, 2vw + 1rem, 2.4rem);
+  --fs-s: clamp(1.4rem, 1.5vw + 0.8rem, 2rem);
+  --fs-xs: clamp(1.2rem, 1.2vw + 0.6rem, 1.6rem);
+
+  /* Spacing - Base unit: 0.8rem (8px) */
+  --spacing-xs: 0.4rem; /* 4px */
+  --spacing-s: 0.8rem; /* 8px */
+  --spacing-m: 1.6rem; /* 16px */
+  --spacing-l: 2.4rem; /* 24px */
+  --spacing-xl: 3.2rem; /* 32px */
+  --spacing-xxl: 4rem; /* 40px */
+  --spacing-xxxl: 4.8rem; /* 48px */
+  --spacing-huge: 6.4rem; /* 64px */
+
+  /* Border */
+  --border-width-thin: 1px;
+  --border-width: 2px;
+  --border-width-thick: 3px;
+  --border-width-extra-thick: 4px;
+
+  --border-radius-s: 0.4rem; /* 4px */
+  --border-radius: 0.8rem; /* 8px */
+  --border-radius-l: 1.6rem; /* 16px */
+  --border-radius-xl: 2.4rem; /* 24px */
+  --border-radius-full: 9999px;
+
+  /* Shadows - Neobrutalist style */
+  --shadow-sm: 2px 2px 0 var(--color-border);
+  --shadow: 4px 4px 0 var(--color-border);
+  --shadow-md: 6px 6px 0 var(--color-border);
+  --shadow-lg: 8px 8px 0 var(--color-border);
+  --shadow-xl: 12px 12px 0 var(--color-border);
+
+  /* Z-index layers */
+  --z-base: 1;
+  --z-dropdown: 10;
+  --z-sticky: 100;
+  --z-fixed: 200;
+  --z-modal: 300;
+  --z-tooltip: 400;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition: 0.2s ease;
+  --transition-slow: 0.3s ease;
+  --transition-slower: 0.5s ease;
+
+  /* Container */
+  --container-max-width: 1680px;
+  --container-padding-mobile: 2rem;
+  --container-padding-tablet: 4rem;
+  --container-padding-desktop: 6rem;
 }

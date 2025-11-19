@@ -2,7 +2,8 @@
   "nav": {
     "home": "Inicio",
     "about": "Sobre mí",
-    "portfolio": "Portfolio"
+    "portfolio": "Portfolio",
+    "resume": "CV"
   },
   "common": {
     "language": "Idioma",
@@ -39,4 +40,3 @@
     }
   }
 }
-

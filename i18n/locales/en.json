@@ -1,8 +1,9 @@
 {
   "nav": {
     "home": "Home",
-    "about": "About",
-    "portfolio": "Portfolio"
+    "about": "About me",
+    "portfolio": "Portfolio",
+    "resume": "Resume"
   },
   "common": {
     "language": "Language",
@@ -17,7 +18,7 @@
     "description": "Frontend developer passionate about creating modern and functional web experiences."
   },
   "about": {
-    "title": "About",
+    "title": "About me",
     "heading": "Hi, I'm Antonio",
     "subtitle": "Frontend Developer",
     "description": "Here you can talk about your professional experience, your skills and your career path."
