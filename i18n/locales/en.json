@@ -38,6 +38,12 @@
       "message": "Sorry, the page you are looking for does not exist.",
       "backHome": "Back to home"
     }
+  },
+  "footer": {
+    "email": "antoniomateosmariscal{'@'}gmail.com",
+    "linkedinAria": "Visit my LinkedIn profile",
+    "githubAria": "Visit my GitHub profile",
+    "emailAria": "Send an email"
   }
 }
 

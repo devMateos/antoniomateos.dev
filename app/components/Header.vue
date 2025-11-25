@@ -58,7 +58,7 @@
   </header>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const { setLocale } = useI18n();
 const localePath = useLocalePath();
 const switchLocalePath = useSwitchLocalePath();
@@ -66,7 +66,7 @@ const isMenuOpen = ref(false);
 // eslint-disable-next-line no-undef
 const { lock, unlock } = useBodyScroll();
 
-const switchLanguage = (lang) => {
+const switchLanguage = (lang: string) => {
   setLocale(lang);
   navigateTo(switchLocalePath(lang));
   closeMenu();
@@ -84,7 +84,7 @@ const closeMenu = () => {
 
 // Close menu on escape key
 onMounted(() => {
-  const handleEscape = (e) => {
+  const handleEscape = (e: KeyboardEvent) => {
     if (e.key === "Escape" && isMenuOpen.value) {
       closeMenu();
     }
@@ -105,7 +105,7 @@ onMounted(() => {
   z-index: var(--z-sticky);
   padding: var(--spacing-m) var(--spacing-xl);
 
-  @media (width > 768px) {
+  @media (width > 992px) {
     padding: var(--spacing-l) var(--spacing-xxl);
   }
 
@@ -133,7 +133,7 @@ onMounted(() => {
     align-items: center;
     justify-content: space-between;
 
-    @media (width > 768px) {
+    @media (width > 992px) {
       gap: var(--spacing-xxl);
     }
   }
@@ -141,7 +141,7 @@ onMounted(() => {
   .nav-desktop {
     display: none;
 
-    @media (width > 768px) {
+    @media (width > 992px) {
       display: flex;
       align-items: center;
       gap: var(--spacing-xxl);
@@ -163,7 +163,7 @@ onMounted(() => {
   .language-selector-desktop {
     display: none;
 
-    @media (width > 768px) {
+    @media (width > 992px) {
       display: flex;
     }
   }
@@ -181,7 +181,7 @@ onMounted(() => {
     justify-content: center;
     position: relative;
 
-    @media (width > 768px) {
+    @media (width > 992px) {
       display: none;
     }
 

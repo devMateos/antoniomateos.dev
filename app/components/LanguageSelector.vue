@@ -14,16 +14,18 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 defineProps({
   variant: {
     type: String,
     default: "desktop",
-    validator: (value) => ["desktop", "mobile"].includes(value),
+    validator: (value: string) => ["desktop", "mobile"].includes(value),
   },
 });
 
-defineEmits(["change"]);
+defineEmits<{
+  (e: "change", lang: string): void;
+}>();
 
 const { locale } = useI18n();
 
@@ -65,4 +67,3 @@ const languages = [
   }
 }
 </style>
-

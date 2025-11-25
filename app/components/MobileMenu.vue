@@ -40,23 +40,25 @@
   </transition>
 </template>
 
-<script setup>
-defineProps({
-  isOpen: {
-    type: Boolean,
-    required: true,
-  },
-});
+<script setup lang="ts">
+// eslint-disable-next-line vue/define-props-declaration
+defineProps<{
+  isOpen: boolean;
+}>();
 
-const emit = defineEmits(["close", "language-change"]);
+// eslint-disable-next-line vue/define-emits-declaration
+const emit = defineEmits<{
+  (e: "close"): void;
+  (e: "language-change", lang: string): void;
+}>();
 
 const localePath = useLocalePath();
 
-const handleClose = () => {
+const handleClose = (): void => {
   emit("close");
 };
 
-const handleLanguageChange = (lang) => {
+const handleLanguageChange = (lang: string): void => {
   emit("language-change", lang);
 };
 </script>

@@ -38,5 +38,11 @@
       "message": "Lo sentimos, la página que buscas no existe.",
       "backHome": "Volver al inicio"
     }
+  },
+  "footer": {
+    "email": "antoniomateosmariscal{'@'}gmail.com",
+    "linkedinAria": "Visitar mi perfil de LinkedIn",
+    "githubAria": "Visitar mi perfil de GitHub",
+    "emailAria": "Enviar un correo electrónico"
   }
 }

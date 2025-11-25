@@ -28,16 +28,16 @@
   --font-family-raleway: "Raleway", sans-serif;
 
   /* Font sizes - Fluid responsive con clamp() */
-  --fs-hero: clamp(4.2rem, 8vw + 2rem, 12rem);
-  --fs-hero-sub: clamp(1.9rem, 3vw + 1rem, 4.39rem);
-  --fs-hero-loc: clamp(1.6rem, 2.5vw + 0.8rem, 3.4rem);
-  --fs-intro: clamp(2rem, 4vw + 1.5rem, 5.6rem);
-  --fs-xxl: clamp(3.2rem, 5vw + 2rem, 6rem);
-  --fs-xl: clamp(2.4rem, 3vw + 1.5rem, 4rem);
-  --fs-l: clamp(2rem, 2.5vw + 1.2rem, 3.2rem);
-  --fs-m: clamp(1.6rem, 2vw + 1rem, 2.4rem);
-  --fs-s: clamp(1.4rem, 1.5vw + 0.8rem, 2rem);
-  --fs-xs: clamp(1.2rem, 1.2vw + 0.6rem, 1.6rem);
+  --fs-hero: clamp(4.2rem, 8dvw, 12rem);
+  --fs-hero-sub: clamp(1.9rem, 3dvw, 4.39rem);
+  --fs-hero-loc: clamp(1.6rem, 2.5dvw, 3.4rem);
+  --fs-intro: clamp(2rem, 4dvw, 5.6rem);
+  --fs-xxl: clamp(3.2rem, 5dvw, 6rem);
+  --fs-xl: clamp(2.4rem, 3dvw, 4rem);
+  --fs-l: clamp(2rem, 2.5dvw, 3.2rem);
+  --fs-m: clamp(1.6rem, 2dvw, 2.4rem);
+  --fs-s: clamp(1.4rem, 1.5dvw, 2rem);
+  --fs-xs: clamp(1.2rem, 1.2dvw, 1.6rem);
 
   /* Spacing - Base unit: 0.8rem (8px) */
   --spacing-xs: 0.4rem; /* 4px */

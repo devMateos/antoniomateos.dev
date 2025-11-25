@@ -10,8 +10,6 @@
   >
     <svg
       class="nav-button__svg"
-      width="110"
-      height="15"
       viewBox="0 0 110 15"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -29,25 +27,13 @@
   </component>
 </template>
 
-<script setup>
-const props = defineProps({
-  to: {
-    type: String,
-    default: null,
-  },
-  href: {
-    type: String,
-    default: null,
-  },
-  download: {
-    type: Boolean,
-    default: false,
-  },
-  isActive: {
-    type: Boolean,
-    default: false,
-  },
-});
+<script setup lang="ts">
+const props = defineProps<{
+  to?: string | null;
+  href?: string | null;
+  download?: boolean;
+  isActive?: boolean;
+}>();
 
 const componentType = computed(() => {
   if (props.to) return resolveComponent("NuxtLink");
@@ -89,11 +75,13 @@ const componentType = computed(() => {
     bottom: 5px;
     z-index: -1;
     pointer-events: none;
+    width: clamp(9rem, 8vw, 11rem);
+    height: auto;
 
     & path {
       transition: all 800ms ease-in-out;
-      stroke-dasharray: 2000px;
-      stroke-dashoffset: 2000px;
+      stroke-dasharray: 1200px;
+      stroke-dashoffset: 1200px;
     }
   }
 
@@ -103,4 +91,3 @@ const componentType = computed(() => {
   }
 }
 </style>
-
