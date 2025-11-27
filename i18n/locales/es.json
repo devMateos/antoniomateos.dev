@@ -3,7 +3,7 @@
     "home": "Inicio",
     "about": "Sobre mí",
     "portfolio": "Portfolio",
-    "resume": "CV"
+    "resume": "Currículum"
   },
   "common": {
     "language": "Idioma",
@@ -12,8 +12,14 @@
     "english": "English"
   },
   "home": {
-    "title": "Antonio Mateos",
-    "subtitle": "A frontend developer who sometimes designs",
+    "greeting": "¡Hey! Soy",
+    "name": "Antonio Mateos",
+    "subtitle": "Un desarrollador {frontend} que a veces {designs}",
+    "frontend": "frontend",
+    "designs": "diseña",
+    "locationBased": "Basado en",
+    "locationCity": "Murcia,",
+    "locationCountry": "España",
     "welcome": "Bienvenido",
     "description": "Desarrollador frontend apasionado por crear experiencias web modernas y funcionales."
   },

@@ -79,10 +79,6 @@
 </template>
 
 <script setup lang="ts">
-import IconLinkedIn from "~/components/Icons/IconLinkedIn.vue";
-import IconGitHub from "~/components/Icons/IconGitHub.vue";
-import IconEmail from "~/components/Icons/IconEmail.vue";
-
 const localePath = useLocalePath();
 </script>
 

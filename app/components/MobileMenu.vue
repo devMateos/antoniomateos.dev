@@ -68,12 +68,12 @@ const handleLanguageChange = (lang: string): void => {
   position: fixed;
   top: 80px;
   left: var(--spacing-l);
-  right: var(--spacing-l);
   background-color: var(--color-bg);
   border: var(--border-width-thick) solid var(--color-border);
   border-radius: var(--border-radius-l);
   padding: var(--spacing-xl) var(--spacing-l);
   box-shadow: var(--shadow-lg);
+  width: calc(100vw - var(--spacing-l) * 2);
   z-index: var(--z-dropdown);
 
   .mobile-nav-list {

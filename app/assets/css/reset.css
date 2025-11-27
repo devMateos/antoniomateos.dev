@@ -82,5 +82,5 @@ body {
   color: var(--color-neutral-black);
   font-family: var(--font-family-body);
   font-size: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }

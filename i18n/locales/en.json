@@ -13,7 +13,14 @@
   },
   "home": {
     "title": "Antonio Mateos",
-    "subtitle": "A frontend developer who sometimes designs",
+    "greeting": "Hey! I'm",
+    "name": "Antonio Mateos",
+    "subtitle": "A {frontend} developer who sometimes {designs}",
+    "frontend": "frontend",
+    "designs": "designs",
+    "locationBased": "Based in",
+    "locationCity": "Murcia,",
+    "locationCountry": "Spain",
     "welcome": "Welcome",
     "description": "Frontend developer passionate about creating modern and functional web experiences."
   },
