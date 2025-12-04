@@ -21,7 +21,9 @@
     "locationCity": "Murcia,",
     "locationCountry": "España",
     "welcome": "Bienvenido",
-    "description": "Desarrollador frontend apasionado por crear experiencias web modernas y funcionales."
+    "description": "Desarrollador frontend apasionado por crear experiencias web modernas y funcionales.",
+    "bio": "Desarrollador Frontend especializado en Vue.js/Nuxt y apasionado del CSS, en transición hacia Frontend Engineering. Fusiono diseño y código para construir {awesome}",
+    "bioAwesome": "productos increíbles"
   },
   "about": {
     "title": "Sobre mí",
@@ -43,6 +45,41 @@
       "heading": "Página no encontrada",
       "message": "Lo sentimos, la página que buscas no existe.",
       "backHome": "Volver al inicio"
+    }
+  },
+  "skills": {
+    "title": "¿Qué puedo hacer?",
+    "uiux": {
+      "title": "Diseño UI/UX",
+      "description": "Diseño sitios web y aplicaciones {highlight1} usando {highlight2}. Con un fuerte enfoque en {highlight3}, creo interfaces intuitivas que mejoran la experiencia de usuario.",
+      "highlight1": "visualmente impactantes y fáciles de usar",
+      "highlight2": "Figma",
+      "highlight3": "usabilidad y estética",
+      "highlight4": ""
+    },
+    "responsive": {
+      "title": "Desarrollo UI Responsive",
+      "description": "Usando técnicas de {highlight1}, construyo interfaces de usuario {highlight2} siguiendo un enfoque {highlight3} para un rendimiento óptimo en cualquier dispositivo.",
+      "highlight1": "CSS moderno",
+      "highlight2": "fluidas y responsive",
+      "highlight3": "mobile-first",
+      "highlight4": ""
+    },
+    "designSystems": {
+      "title": "Design Systems",
+      "description": "Usando {highlight1}, y arquitectura {highlight2}, desarrollo {highlight3} para asegurar consistencia visual y eficiencia en todos los proyectos.",
+      "highlight1": "CSS variables, utility classes",
+      "highlight2": "basada en componentes",
+      "highlight3": "Design Systems escalables y mantenibles",
+      "highlight4": ""
+    },
+    "reactive": {
+      "title": "Apps Reactivas y Dinámicas",
+      "description": "Doy vida a las interfaces con {highlight1} y {highlight2} como {highlight3}, integrando {highlight4} para crear aplicaciones de alto rendimiento basadas en datos.",
+      "highlight1": "JavaScript",
+      "highlight2": "frameworks reactivos",
+      "highlight3": "Vue.js",
+      "highlight4": "APIs"
     }
   },
   "footer": {

@@ -22,7 +22,9 @@
     "locationCity": "Murcia,",
     "locationCountry": "Spain",
     "welcome": "Welcome",
-    "description": "Frontend developer passionate about creating modern and functional web experiences."
+    "description": "Frontend developer passionate about creating modern and functional web experiences.",
+    "bio": "I'm a Frontend Developer focused on Vue.js/Nuxt and a CSS lover, now moving toward Frontend Engineering. I blend design and code to craft {awesome}",
+    "bioAwesome": "awesome products"
   },
   "about": {
     "title": "About me",
@@ -46,6 +48,41 @@
       "backHome": "Back to home"
     }
   },
+  "skills": {
+    "title": "What can I do?",
+    "uiux": {
+      "title": "UI/UX Design",
+      "description": "I design {highlight1} websites and applications using {highlight2}. With a strong focus on {highlight3}, I craft intuitive interfaces that enhance the user experience.",
+      "highlight1": "visually stunning and user-friendly",
+      "highlight2": "Figma",
+      "highlight3": "usability and aesthetics",
+      "highlight4": ""
+    },
+    "responsive": {
+      "title": "Responsive UI Development",
+      "description": "Using {highlight1} techniques, I build {highlight2} user interfaces following a {highlight3} approach for optimal performance on any device.",
+      "highlight1": "modern CSS",
+      "highlight2": "fluid, responsive",
+      "highlight3": "mobile-first",
+      "highlight4": ""
+    },
+    "designSystems": {
+      "title": "Design Systems",
+      "description": "Using {highlight1}, and {highlight2} architecture, I develop {highlight3} to ensure visual consistency and efficiency across projects.",
+      "highlight1": "CSS variables, utility classes",
+      "highlight2": "component-based",
+      "highlight3": "scalable, maintainable Design Systems",
+      "highlight4": ""
+    },
+    "reactive": {
+      "title": "Reactive & Dynamic Apps",
+      "description": "I bring user interfaces to life with {highlight1} and {highlight2} like {highlight3}, integrating {highlight4} to create high-performance, data-driven apps.",
+      "highlight1": "JavaScript",
+      "highlight2": "reactive frameworks",
+      "highlight3": "Vue.js",
+      "highlight4": "APIs"
+    }
+  },
   "footer": {
     "email": "antoniomateosmariscal{'@'}gmail.com",
     "linkedinAria": "Visit my LinkedIn profile",
@@ -53,4 +90,3 @@
     "emailAria": "Send an email"
   }
 }
-

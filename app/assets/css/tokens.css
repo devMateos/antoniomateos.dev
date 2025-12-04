@@ -31,7 +31,7 @@
   --fs-hero: clamp(4.2rem, 8dvw, 12rem);
   --fs-hero-sub: clamp(1.9rem, 3dvw, 4.39rem);
   --fs-hero-loc: clamp(1.6rem, 2.5dvw, 3.4rem);
-  --fs-intro: clamp(2rem, 4dvw, 5.6rem);
+  --fs-intro: clamp(2rem, 3dvw, 5.6rem);
   --fs-xxl: clamp(3.2rem, 5dvw, 6rem);
   --fs-xl: clamp(2.4rem, 3dvw, 4rem);
   --fs-l: clamp(2rem, 2.5dvw, 3.2rem);
