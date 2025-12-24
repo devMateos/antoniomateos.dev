@@ -2,7 +2,7 @@
 <template>
   <transition name="menu">
     <div v-if="isOpen" class="mobile-menu">
-      <nav class="mobile-nav">
+      <nav class="mobile-nav" :aria-label="$t('nav.mobileNavAria')">
         <ul class="mobile-nav-list">
           <li class="mobile-nav-item">
             <NuxtLink

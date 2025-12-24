@@ -8,6 +8,7 @@
     viewBox="0 0 43 43"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
   >
     <g clip-path="url(#clip0_1_400)">
       <path

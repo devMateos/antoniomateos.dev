@@ -12,15 +12,14 @@ const { t } = useI18n();
               {{ t("home.bioAwesome") }}
               <svg
                 class="bio-text__underline"
-                width="539"
-                height="65"
                 viewBox="0 0 539 65"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
                 <path
                   d="M2.5 21.3785C174.466 16.0185 346.754 12.6734 518.621 4.17761C524.187 3.90249 540.831 2.7556 535.262 2.56503C515.738 1.89694 464.507 6.52569 450.595 7.94032C425.709 10.4709 400.878 13.5261 376.046 16.5408C354.967 19.0997 250.591 31.2806 222.953 38.7139C161.509 55.2395 349.015 55.7983 412.255 62.4995"
-                  stroke="#C85314"
+                  stroke="currentColor"
                   stroke-width="4"
                   stroke-linecap="round"
                 />

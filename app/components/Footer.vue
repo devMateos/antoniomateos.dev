@@ -7,7 +7,7 @@
         <h2 class="name">Antonio Mateos</h2>
 
         <!-- Navigation -->
-        <nav class="nav">
+        <nav class="nav" :aria-label="$t('nav.footerNavAria')">
           <ul class="nav-list">
             <li class="nav-item">
               <NuxtLink :to="localePath('/portfolio')" class="nav-link">

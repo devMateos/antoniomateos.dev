@@ -4,6 +4,27 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/eslint", "@nuxt/image", "@nuxtjs/i18n"],
 
+  app: {
+    head: {
+      htmlAttrs: { lang: "es" },
+      meta: [
+        { charset: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { name: "author", content: "Antonio Mateos" },
+        // Open Graph base
+        { property: "og:type", content: "website" },
+        { property: "og:site_name", content: "Antonio Mateos" },
+        { property: "og:locale", content: "es_ES" },
+        { property: "og:locale:alternate", content: "en_US" },
+        // Twitter Card
+        { name: "twitter:card", content: "summary_large_image" },
+      ],
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      ],
+    },
+  },
+
   css: [
     "~/assets/css/fonts.css",
     "~/assets/css/tokens.css",

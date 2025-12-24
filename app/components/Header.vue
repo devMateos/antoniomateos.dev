@@ -7,7 +7,7 @@
 
       <div class="desktop-container">
         <!-- Desktop Navigation -->
-        <nav class="nav-desktop">
+        <nav class="nav-desktop" :aria-label="$t('nav.mainNavAria')">
           <ul class="nav-list">
             <li class="nav-item">
               <NavButton1 :to="localePath('/portfolio')">
@@ -39,7 +39,7 @@
         type="button"
         class="menu-toggle"
         :class="{ 'menu-toggle--active': isMenuOpen }"
-        aria-label="Toggle menu"
+        :aria-label="$t('nav.toggleMenuAria')"
         :aria-expanded="isMenuOpen"
         @click="toggleMenu"
       >

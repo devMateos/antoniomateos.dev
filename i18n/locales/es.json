@@ -1,9 +1,28 @@
 {
+  "seo": {
+    "siteName": "Antonio Mateos",
+    "home": {
+      "title": "Antonio Mateos | Desarrollador Frontend",
+      "description": "Desarrollador Frontend especializado en Vue.js, Nuxt y CSS moderno. Creo experiencias web modernas, accesibles y con un diseño cuidado."
+    },
+    "about": {
+      "title": "Sobre mí | Antonio Mateos",
+      "description": "Conoce más sobre Antonio Mateos, desarrollador frontend especializado en Vue.js y Nuxt, apasionado por el diseño UI/UX y el CSS moderno."
+    },
+    "portfolio": {
+      "title": "Portfolio | Antonio Mateos",
+      "description": "Explora los proyectos de Antonio Mateos: aplicaciones web modernas desarrolladas con Vue.js, Nuxt y las últimas tecnologías frontend."
+    }
+  },
   "nav": {
     "home": "Inicio",
     "about": "Sobre mí",
     "portfolio": "Portfolio",
-    "resume": "Currículum"
+    "resume": "Currículum",
+    "mainNavAria": "Navegación principal",
+    "footerNavAria": "Navegación del footer",
+    "mobileNavAria": "Navegación móvil",
+    "toggleMenuAria": "Abrir o cerrar menú"
   },
   "common": {
     "language": "Idioma",
