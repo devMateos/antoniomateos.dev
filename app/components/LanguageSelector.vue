@@ -39,13 +39,13 @@ const languages = [
 .language-selector {
   display: flex;
   gap: var(--spacing-s);
+}
 
-  &--mobile {
-    margin-top: var(--spacing-xl);
+.language-selector--mobile {
+  margin-top: var(--spacing-xl);
 
-    .language-btn {
-      flex: 1;
-    }
+  .language-btn {
+    flex: 1;
   }
 }
 

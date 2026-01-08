@@ -46,9 +46,44 @@
   },
   "about": {
     "title": "Sobre mí",
-    "heading": "Hola, soy Antonio",
-    "subtitle": "Desarrollador Frontend",
-    "description": "Aquí puedes hablar sobre tu experiencia profesional, tus habilidades y tu trayectoria."
+    "paragraph1": "En 2022, mientras estudiaba marketing, descubrí el desarrollo web frontend como una habilidad complementaria. Lo que comenzó como una simple curiosidad rápidamente se convirtió en mi verdadera vocación. Desde entonces, me he formado como desarrollador web con enfoque en frontend, adquiriendo también conocimientos en diseño UI/UX.",
+    "paragraph2": "Últimamente, he estado explorando el desarrollo backend, formando un perfil en T con una base sólida en múltiples áreas y una clara especialización en frontend.",
+    "paragraph3": "Hoy en día, combino diseño y programación para crear experiencias digitales intuitivas y eficientes utilizando tecnologías modernas. Siempre estoy buscando innovar, seguir aprendiendo y llevar cada proyecto al siguiente nivel.",
+    "hobbiesTitle": "Aún más sobre mí",
+    "hobby1": "Me gusta el bowling (aunque soy malísimo)",
+    "hobby2": "Tengo un gato naranja llamado \"Salmorejo\" (está loco como una cabra)",
+    "hobby3": "Cuando no me están matando, suelo relajarme jugando a videojuegos.",
+    "experience": {
+      "title": "Experiencia profesional",
+      "odin": {
+        "company": "Odin Solutions",
+        "period": "Febrero 2024 - Actualidad",
+        "role": "Desarrollador Frontend | Diseñador UI/UX",
+        "desc1": "Implementé un {h1} personalizado (\"WiStyles\") en {h2}, creando una librería de patrones y componentes reutilizables, y traduciéndolo a código usando {h3}. Esto optimizó el proceso de desarrollo de interfaces y mejoró la comunicación entre los equipos de diseño y desarrollo.",
+        "desc1_h1": "design system",
+        "desc1_h2": "Figma",
+        "desc1_h3": "JavaScript, Vue 3 y CSS nativo",
+        "desc2": "Diseñé interfaces UI/UX para nuevas plataformas, aplicando principios de {h1} con un enfoque {h2} para garantizar accesibilidad y usabilidad en todo tipo de dispositivos.",
+        "desc2_h1": "Responsive Design",
+        "desc2_h2": "Mobile-First",
+        "desc3": "Desarrollé aplicaciones de página única (SPA) usando el {h1}, integrando el Design System personalizado para construir interfaces escalables y mantenibles.",
+        "desc3_h1": "ecosistema Vue.js (Vue Router, Vue I18n, Pinia)",
+        "desc4": "También colaboré en tareas de backend, creando y modificando endpoints {h1} con {h2} y {h3}, contribuyendo a una comunicación frontend-backend más eficiente.",
+        "desc4_h1": "REST",
+        "desc4_h2": "Express.js",
+        "desc4_h3": "TypeScript"
+      },
+      "cozar": {
+        "company": "Cózar Studio",
+        "period": "Marzo 2023 - Julio 2023",
+        "role": "Desarrollador Frontend en prácticas",
+        "desc1": "Diseño, maquetación y desarrollo de sitios web en WordPress, trabajando desde la creación de interfaces en {h1} hasta la implementación usando {h2}, {h3} (incluyendo Bootstrap) y {h4}.",
+        "desc1_h1": "Figma",
+        "desc1_h2": "HTML5",
+        "desc1_h3": "CSS3",
+        "desc1_h4": "JavaScript"
+      }
+    }
   },
   "portfolio": {
     "title": "Portfolio",

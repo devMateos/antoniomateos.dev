@@ -181,7 +181,7 @@ onUnmounted(() => {
       min-height: clamp(800px, 90dvh, 1000px);
 
       .skills__card {
-        --distance: calc(calc(100vw - 1680px) / 2);
+        --distance: max(32px, calc((100vw - 1680px) / 2));
 
         position: absolute;
         max-width: clamp(350px, 40dvw, 650px);

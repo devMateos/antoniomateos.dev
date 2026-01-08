@@ -22,6 +22,7 @@
   /* Typography */
   --font-family-caprasimo: "Caprasimo", cursive;
   --font-family-raleway: "Raleway", sans-serif;
+  --font-family-handwritten: "Gloria Hallelujah", cursive;
 
   /* Font sizes - Fluid responsive con clamp() */
   --fs-hero: clamp(4.2rem, 8dvw, 12rem);

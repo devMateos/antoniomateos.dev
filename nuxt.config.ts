@@ -32,6 +32,11 @@ export default defineNuxtConfig({
     "~/assets/css/typography.css",
   ],
 
+  image: {
+    formats: ["webp", "avif", "png"],
+    quality: 85,
+  },
+
   i18n: {
     locales: [
       {
