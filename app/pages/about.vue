@@ -10,24 +10,15 @@ useSeoMeta({
   // ogImage: "https://antoniomateos.dev/og-about.jpg",
   ogUrl: "https://antoniomateos.dev/about",
 });
-
-onMounted(() => {
-  document.body.classList.add("page-about");
-});
-
-onUnmounted(() => {
-  document.body.classList.remove("page-about");
-});
 </script>
 
 <template>
-  <AboutBio />
-  <AboutHobbies />
-  <AboutExperience />
+  <div class="about-page">
+    <AboutBio />
+    <AboutHobbies />
+    <AboutExperience />
+  </div>
 </template>
 
 <style>
-body.page-about {
-  background-color: var(--color-bg);
-}
 </style>

@@ -1,6 +1,5 @@
 <script setup lang="ts">
 const { t } = useI18n();
-const localePath = useLocalePath();
 
 useSeoMeta({
   title: () => t("seo.portfolio.title"),
@@ -14,30 +13,60 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="portfolio">
-    <div class="container">
-      <h1>{{ t("portfolio.title") }}</h1>
-    </div>
-  </section>
+  <div class="portfolio-page">
+    <PortfolioProjectOdin />
+    <PortfolioProjectPistachio />
+    <PortfolioProjectShoppingList />
+
+    <section class="portfolio-cta">
+      <p>
+        <i18n-t keypath="portfolio.githubCta" tag="span">
+          <template #github>
+            <a
+              href="https://github.com/devMateos"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="portfolio-cta__link"
+            >
+              {{ t("portfolio.githubLink") }}
+            </a>
+          </template>
+        </i18n-t>
+      </p>
+    </section>
+  </div>
 </template>
 
 <style scoped>
-.portfolio {
-  padding: var(--spacing-xxl) var(--spacing-l);
+.portfolio-page {
+  display: flex;
+  flex-direction: column;
+}
 
-  @media (width > 992px) {
+.portfolio-cta {
+  padding: var(--spacing-xxl) var(--spacing-l);
+  text-align: center;
+
+  @media (width >= 992px) {
     padding: var(--spacing-huge) var(--spacing-xxl);
   }
 
-  .container {
-    max-width: var(--container-max-width);
-    margin: 0 auto;
-  }
-
-  h1 {
-    font-family: var(--font-family-caprasimo);
-    font-size: var(--fs-xxl);
+  p {
+    font-family: var(--font-family-raleway);
+    font-size: var(--fs-m);
     color: var(--color-text);
+  }
+}
+
+.portfolio-cta__link {
+  color: var(--color-text);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--transition);
+
+  &:hover {
+    color: var(--color-accent);
   }
 }
 </style>

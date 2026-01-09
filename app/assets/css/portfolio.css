@@ -1,0 +1,97 @@
+/* ==========================================================================
+   Portfolio Projects - Shared Styles
+   ========================================================================== */
+
+/* Base project layout */
+.project {
+  display: flex;
+  flex-direction: column;
+
+  @media (width >= 992px) {
+    flex-direction: row;
+  }
+}
+
+/* Visual section - base styles */
+.project__visual {
+  display: flex;
+  justify-content: center;
+  min-height: var(--project-visual-height-mobile, 390px);
+
+  @media (width >= 992px) {
+    flex: 1;
+    min-height: var(--project-visual-height-desktop, 550px);
+  }
+}
+
+/* Content section - base styles */
+.project__content {
+  padding: var(--spacing-xxl) var(--spacing-l);
+
+  @media (width >= 992px) {
+    flex: 1;
+    padding: var(--spacing-huge);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* Typography - titles */
+.project__title {
+  font-family: var(--font-family-raleway);
+  font-size: var(--fs-l);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-m);
+}
+
+/* Typography - descriptions */
+.project__description {
+  font-family: var(--font-family-raleway);
+  font-size: var(--fs-m);
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+/* Description with multiple paragraphs */
+.project__description--multi {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-m);
+}
+
+.project__description--multi p {
+  font-family: var(--font-family-raleway);
+  font-size: var(--fs-m);
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.project__description--multi :deep(strong) {
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+/* Modifier: content on left, visual on right */
+.project__content--left {
+  order: 2;
+
+  @media (width >= 992px) {
+    order: 1;
+  }
+}
+
+.project__visual--right {
+  order: 1;
+
+  @media (width >= 992px) {
+    order: 2;
+  }
+}
+
+/* Modifier: white background for content */
+.project__content--white {
+  background-color: var(--color-bg-alt);
+}
+

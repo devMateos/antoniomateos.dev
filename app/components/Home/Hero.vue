@@ -160,14 +160,16 @@ const { t } = useI18n();
     right: calc(-1 * calc(1.6rem * var(--sticker-scale)));
     top: 68%;
     transform-origin: right center;
-    animation: float-laptop 3s ease-in-out infinite;
+    rotate: -17.65deg;
+    animation: float 3s ease-in-out infinite;
     animation-delay: 1.5s;
   }
   .page-sticker {
     left: 7%;
     top: 75%;
     transform-origin: left center;
-    animation: float-page 3s ease-in-out infinite;
+    rotate: -13deg;
+    animation: float 3s ease-in-out infinite;
     animation-delay: 2.25s;
   }
   .wheel-sticker {
@@ -197,23 +199,4 @@ const { t } = useI18n();
   }
 }
 
-@keyframes float-laptop {
-  0%,
-  100% {
-    transform: rotate(-17.65deg) translateY(0);
-  }
-  50% {
-    transform: rotate(-17.65deg) translateY(-10px);
-  }
-}
-
-@keyframes float-page {
-  0%,
-  100% {
-    transform: rotate(-13deg) translateY(0);
-  }
-  50% {
-    transform: rotate(-13deg) translateY(-10px);
-  }
-}
 </style>

@@ -15,9 +15,9 @@
           </li>
           <li class="mobile-nav-item">
             <a
-              href="/cv.pdf"
+              href="/docs/Antonio%20Mateos%20Mariscal.pdf"
               class="mobile-nav-link"
-              download
+              download="Antonio-Mateos-Mariscal.pdf"
               @click="handleClose"
             >
               {{ $t("nav.resume") }}

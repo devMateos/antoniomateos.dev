@@ -42,7 +42,8 @@
     "welcome": "Bienvenido",
     "description": "Desarrollador frontend apasionado por crear experiencias web modernas y funcionales.",
     "bio": "Desarrollador Frontend especializado en Vue.js/Nuxt y apasionado del CSS, en transición hacia Frontend Engineering. Fusiono diseño y código para construir {awesome}",
-    "bioAwesome": "productos increíbles"
+    "bioAwesome": "productos increíbles",
+    "seeAllProjects": "Ver todos los proyectos"
   },
   "about": {
     "title": "Sobre mí",
@@ -91,7 +92,30 @@
     "subtitle": "Una selección de mis trabajos más relevantes",
     "viewProject": "Ver proyecto",
     "technologies": "Tecnologías",
-    "noProjects": "No hay proyectos disponibles"
+    "noProjects": "No hay proyectos disponibles",
+    "githubCta": "Puedes encontrar más de mis proyectos en mi {github}.",
+    "githubLink": "GitHub",
+    "projects": {
+      "odin": {
+        "title": "En Odin Solutions",
+        "description1": "En Odin Solutions, trabajé en varios proyectos como desarrollador frontend, asumiendo también responsabilidades de diseño UI y tareas de backend. Algunos de los proyectos más destacados incluyen {wiinspire} (monitorización de calidad del aire en interiores), {wicube} (gestión de residuos) y {wikeeper} (riego inteligente para campos deportivos), utilizado por equipos importantes de LaLiga española como el Real Valladolid y la Real Sociedad.",
+        "wiinspire": "WiInspire",
+        "wicube": "WiCube",
+        "wikeeper": "WiKeeper",
+        "description2": "Para mejorar el proceso de diseño y desarrollo de UI, creé e implementé un design system personalizado en Figma, que posteriormente se tradujo a código usando el ecosistema Vue.js y CSS nativo. Esta solución mejoró la consistencia visual y aceleró el desarrollo de nuevas interfaces."
+      },
+      "pistachio": {
+        "title": "PistachioCSS",
+        "tagline": "Crea tu design system para CSS",
+        "description": "PistachioCSS es una herramienta que ayuda a dar los primeros pasos para llevar un design system a CSS. Aunque el proyecto está algo desactualizado e incompleto comparado con mi visión original, sigue siendo uno de mis favoritos — fue la primera SPA que construí por mi cuenta, y con el tiempo, ha servido como una base valiosa para entender e implementar design systems de manera más estructurada."
+      },
+      "shoppingList": {
+        "title": "Shopping list App",
+        "description": "Una aplicación de uso personal diseñada para compartir una lista de la compra entre múltiples usuarios. Ayuda a organizar las compras de manera más eficiente y se actualiza en tiempo real mediante WebSockets cada vez que un usuario realiza cambios en cualquier elemento.",
+        "viewPrototype": "Ver prototipo en Figma",
+        "prototypeLink": "https://www.figma.com/proto/yg6lP8KCnLyIbNehHZ09L5/Untitled?page-id=0%3A1&node-id=6-71&starting-point-node-id=6%3A71&t=pVE91jbNhXSGVZnx-1"
+      }
+    }
   },
   "error": {
     "404": {

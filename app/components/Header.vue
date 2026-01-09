@@ -15,7 +15,7 @@
               </NavButton1>
             </li>
             <li class="nav-item">
-              <NavButton2 href="" download>
+              <NavButton2 href="/docs/Antonio%20Mateos%20Mariscal.pdf" :download="'Antonio-Mateos-Mariscal.pdf'">
                 {{ $t("nav.resume") }}
               </NavButton2>
             </li>

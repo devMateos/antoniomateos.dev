@@ -15,7 +15,7 @@
               </NuxtLink>
             </li>
             <li class="nav-item">
-              <a href="" download class="nav-link">
+              <a href="/docs/Antonio%20Mateos%20Mariscal.pdf" download="Antonio-Mateos-Mariscal.pdf" class="nav-link">
                 {{ $t("nav.resume") }}
               </a>
             </li>
@@ -47,7 +47,7 @@
 
           <!-- GitHub -->
           <a
-            href="https://github.com/antoniomateosmariscal"
+            href="https://github.com/devMateos"
             target="_blank"
             rel="noopener noreferrer"
             class="social-link"

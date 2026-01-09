@@ -211,12 +211,12 @@ onUnmounted(() => {
         }
         &:nth-child(3) {
           left: var(--distance);
-          bottom: var(--spacing-xxl);
+          bottom: var(--spacing-huge);
           rotate: -4.72deg;
         }
         &:nth-child(4) {
           right: var(--distance);
-          bottom: var(--spacing-xxl);
+          bottom: var(--spacing-huge);
           rotate: 2.53deg;
         }
       }

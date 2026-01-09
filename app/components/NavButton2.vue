@@ -32,7 +32,7 @@
 const props = defineProps<{
   to?: string | null;
   href?: string | null;
-  download?: boolean;
+  download?: boolean | string;
   isActive?: boolean;
 }>();
 

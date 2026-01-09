@@ -18,4 +18,8 @@
 .main {
   flex: 1;
 }
+
+.layout:has(.about-page) {
+  background-color: var(--color-bg);
+}
 </style>

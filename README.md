@@ -90,7 +90,7 @@ El diseño está inspirado en el estilo **neobrutalista**, caracterizado por:
 
 ```bash
 # Clonar el repositorio (si aplica)
-git clone https://github.com/antoniomateos/antoniomateos.dev.git
+git clone https://github.com/devMateos/antoniomateos.dev.git
 cd antoniomateos.dev
 
 # Instalar dependencias
@@ -215,7 +215,7 @@ Este proyecto es privado y no acepta contribuciones externas.
 **Antonio Mateos**
 
 - Website: [antoniomateos.dev](https://www.antoniomateos.dev)
-- GitHub: [@antoniomateos](https://github.com/antoniomateos)
+- GitHub: [@devMateos](https://github.com/devMateos)
 
 ---
 

@@ -43,7 +43,8 @@
     "welcome": "Welcome",
     "description": "Frontend developer passionate about creating modern and functional web experiences.",
     "bio": "I'm a Frontend Developer focused on Vue.js/Nuxt and a CSS lover, now moving toward Frontend Engineering. I blend design and code to craft {awesome}",
-    "bioAwesome": "awesome products"
+    "bioAwesome": "awesome products",
+    "seeAllProjects": "See all projects"
   },
   "about": {
     "title": "About me",
@@ -92,7 +93,30 @@
     "subtitle": "A selection of my most relevant work",
     "viewProject": "View project",
     "technologies": "Technologies",
-    "noProjects": "No projects available"
+    "noProjects": "No projects available",
+    "githubCta": "You can find more of my projects on my {github}.",
+    "githubLink": "GitHub",
+    "projects": {
+      "odin": {
+        "title": "At Odin Solutions",
+        "description1": "At Odin Solutions, I worked on various projects as a frontend developer, while also taking on UI design responsibilities and backend tasks. Some of the most notable projects include {wiinspire} (air quality monitoring for indoor environments), {wicube} (waste management), and {wikeeper} (smart irrigation for sports fields), used by major Spanish LaLiga teams such as Real Valladolid and Real Sociedad.",
+        "wiinspire": "WiInspire",
+        "wicube": "WiCube",
+        "wikeeper": "WiKeeper",
+        "description2": "To improve the UI design and development process, I created and implemented a custom design system in Figma, which was later translated into code using the Vue.js ecosystem and native CSS. This solution enhanced visual consistency and accelerated the development of new interfaces."
+      },
+      "pistachio": {
+        "title": "PistachioCSS",
+        "tagline": "Create your design system for CSS",
+        "description": "PistachioCSS is a tool that helps take the first steps in bringing a design system into CSS. Although the project is somewhat outdated and incomplete compared to my original vision, it remains one of my favorites — it was the first SPA I built on my own, and over time, it has served as a valuable foundation for understanding and implementing design systems in a more structured way."
+      },
+      "shoppingList": {
+        "title": "Shopping list App",
+        "description": "A personal-use app designed to share a shopping list among multiple users. It helps organize purchases more efficiently and updates in real time via WebSockets whenever a user makes changes to any item.",
+        "viewPrototype": "View prototype in Figma",
+        "prototypeLink": "https://www.figma.com/proto/yg6lP8KCnLyIbNehHZ09L5/Untitled?page-id=0%3A1&node-id=6-71&starting-point-node-id=6%3A71&t=pVE91jbNhXSGVZnx-1"
+      }
+    }
   },
   "error": {
     "404": {

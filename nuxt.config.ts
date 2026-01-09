@@ -20,7 +20,7 @@ export default defineNuxtConfig({
         { name: "twitter:card", content: "summary_large_image" },
       ],
       link: [
-        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        { rel: "icon", type: "image/png", href: "/favicon.png" },
       ],
     },
   },
@@ -30,6 +30,7 @@ export default defineNuxtConfig({
     "~/assets/css/tokens.css",
     "~/assets/css/reset.css",
     "~/assets/css/typography.css",
+    "~/assets/css/portfolio.css",
   ],
 
   image: {
@@ -59,7 +60,7 @@ export default defineNuxtConfig({
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: "i18n_redirected",
-      redirectOn: "root",
+      redirectOn: "no prefix",
       alwaysRedirect: false,
       fallbackLocale: "es",
     },
