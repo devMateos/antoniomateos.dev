@@ -147,13 +147,13 @@ const { t } = useI18n();
   }
   .brush-sticker {
     left: calc(-1 * calc(2rem * var(--sticker-scale)));
-    top: clamp(18%, 20dvh, 25%);
+    top: 18%;
     transform-origin: left center;
     animation-delay: 0s;
   }
   .mouse-sticker {
     left: 81%;
-    top: 25%;
+    top: 20%;
     transform-origin: left center;
     animation-delay: 0.75s;
   }
