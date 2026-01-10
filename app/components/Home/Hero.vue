@@ -50,6 +50,7 @@ const { t } = useI18n();
   align-items: center;
   justify-content: center;
   padding: var(--spacing-l);
+  position: relative;
 
   @media (width > 992px) {
     --header-height: 112px;

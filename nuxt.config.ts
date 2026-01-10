@@ -4,6 +4,16 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/eslint", "@nuxt/image", "@nuxtjs/i18n"],
 
+  // Configuración para generación estática
+  ssr: true,
+
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/", "/en"],
+    },
+  },
+
   app: {
     head: {
       htmlAttrs: { lang: "es" },

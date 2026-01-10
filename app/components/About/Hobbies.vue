@@ -1,5 +1,51 @@
 <script setup lang="ts">
 const { t } = useI18n();
+
+// Datos de los hobbies
+const hobbies = [
+  { video: '/video/hobby-bowling.mp4', textKey: 'about.hobby1', rotation: -3 },
+  { video: '/video/hobby-cat.mp4', textKey: 'about.hobby2', rotation: 2 },
+  { video: '/video/hobby-videogames.mp4', textKey: 'about.hobby3', rotation: -2 },
+];
+
+// Referencias a los videos
+const videoRefs = ref<(HTMLVideoElement | null)[]>([]);
+
+// Configurar Intersection Observer
+onMounted(() => {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        const video = entry.target as HTMLVideoElement;
+        if (entry.isIntersecting) {
+          // Solo reproducir si está visible
+          video.play().catch(() => {
+            // Silenciar errores de autoplay (políticas del navegador)
+          });
+        } else {
+          // Pausar cuando sale del viewport
+          video.pause();
+        }
+      });
+    },
+    {
+      threshold: 0.3,  // 30% visible para activar
+      rootMargin: '50px' // Pre-cargar un poco antes
+    }
+  );
+
+  videoRefs.value.forEach((video: HTMLVideoElement | null) => {
+    if (video) observer.observe(video);
+  });
+
+  // Cleanup al desmontar el componente
+  onUnmounted(() => observer.disconnect());
+});
+
+// Función para asignar refs dinámicamente
+const setVideoRef = (el: HTMLVideoElement | null, index: number) => {
+  videoRefs.value[index] = el;
+};
 </script>
 
 <template>
@@ -9,44 +55,18 @@ const { t } = useI18n();
 
       <div class="hobbies__grid">
         <AboutPolaroidCard
-          :text="t('about.hobby1')"
-          :rotation="-3"
+          v-for="(hobby, index) in hobbies"
+          :key="hobby.video"
+          :text="t(hobby.textKey)"
+          :rotation="hobby.rotation"
         >
           <video
-            src="/video/hobby-bowling.mp4"
-            autoplay
+            :ref="(el) => setVideoRef(el as HTMLVideoElement, index)"
+            :src="hobby.video"
             loop
             muted
             playsinline
-            preload="none"
-          />
-        </AboutPolaroidCard>
-
-        <AboutPolaroidCard
-          :text="t('about.hobby2')"
-          :rotation="2"
-        >
-          <video
-            src="/video/hobby-cat.mp4"
-            autoplay
-            loop
-            muted
-            playsinline
-            preload="none"
-          />
-        </AboutPolaroidCard>
-
-        <AboutPolaroidCard
-          :text="t('about.hobby3')"
-          :rotation="-2"
-        >
-          <video
-            src="/video/hobby-videogames.mp4"
-            autoplay
-            loop
-            muted
-            playsinline
-            preload="none"
+            preload="metadata"
           />
         </AboutPolaroidCard>
       </div>
